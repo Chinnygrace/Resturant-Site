@@ -11,7 +11,7 @@ export function createContactContent() {
     address.classList.add("address");
 
     const img = document.createElement("img");
-    img.src= "../src/images/map.jpg";
+    img.src= "../src/image/map.jpg";
     img.classList.add("img");
 
 
