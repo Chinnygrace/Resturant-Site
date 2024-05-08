@@ -8,14 +8,14 @@ export function createHomePage() {
   dottedContainer.classList.add('dotted-container');
 
   // Set the dotted border style using CSS
-  dottedContainer.style.border = '1px dashed rgb(233, 233, 18)'; 
+  dottedContainer.style.border = '1px dashed rgba(255, 0, 0, 1)'; 
 
   content.style.display = 'flex';
   content.style.justifyContent = 'center';
 
   // Append content to the dotted container
   const miniDescription = document.createElement("p");
-  miniDescription.textContent = "Welcome to Chop-life- restaurant.";
+  miniDescription.textContent = "Welcome to Ntachi-osa- kitchen.";
   miniDescription.classList.add("mini-description");
 
   const description = document.createElement("p");
@@ -23,8 +23,10 @@ export function createHomePage() {
   description.classList.add("description");
 
   const image = document.createElement("img");
-  image.src = "https://chop-life-restaurant.netlify.app/d911b70fe9b0e3f89d86.png";
+  image.src = "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
   image.classList.add("image"); 
+
+ 
 
   const orderDescription = document.createElement("h3");
   orderDescription.textContent = "Check our menu list to place your order now!!!";

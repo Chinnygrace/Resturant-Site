@@ -3,15 +3,15 @@ export function createContactContent() {
     contactContainer.classList.add('contact-content');
 
     const phoneNumber = document.createElement("p");
-    phoneNumber.textContent = "Phone: +234111222333";
+    phoneNumber.textContent = "Phone:  +234 811 238 6317";
     phoneNumber.classList.add("phone-number");
 
     const address = document.createElement("p");
-    address.textContent = "Address: The restuarant address goes here...";
+    address.textContent = "Address: 97 Chime Ave, New Haven, Enugu 400102, Enugu...";
     address.classList.add("address");
 
     const img = document.createElement("img");
-    img.src = "https://chop-life-restaurant.netlify.app/52c1f412b91544798d21.png";
+    img.src= "../src/images/map.jpg";
     img.classList.add("img");
 
 

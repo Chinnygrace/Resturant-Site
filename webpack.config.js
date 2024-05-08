@@ -19,8 +19,20 @@ module.exports = {
             test: /\.css$/,
             use: ['style-loader', 'css-loader'],
         },
-    ],
-},
+        {
+          test: /\.(png|jpg|gif|svg)$/,
+          use: [
+            {
+              loader: 'image-loader',
+              options: {
+                name: '[name].[ext]',
+                outputPath: 'images/'
+              },
+            },
+          ],
+        },
+      ],
+    },
 
   plugins: [
     new HtmlWebpackPlugin({

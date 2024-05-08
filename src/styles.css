@@ -15,13 +15,13 @@ h1 {
     font-size: 32px;
     margin-top: 55px;
     margin-bottom: 70px;
-    color: white;
+    color: black;
 }
 
 .header {
     text-align: center;
     align-items: center;
-    background: linear-gradient(95deg, rgba(58, 36, 17, 1), rgba(204, 120, 11, 0.8));
+    background-color: #F5F5DC; 
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 20px;
@@ -35,29 +35,9 @@ body::before {
     left: 0;
     height: 100%;
     width: 100%;
-    z-index: -99999999;
-    background-image: linear-gradient(95deg, 
-    rgba(58, 36, 17, 0.5), 
-    rgba(204, 120, 11, 0.7)),
-        url(https://chop-life-restaurant.netlify.app/d911b70fe9b0e3f89d86.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-#home-btn {
-    background: rgb(105,65,20);
-}
-
-#menu-btn {
-    background: rgb(121,72,15);
-}
-
-#contact-btn {
-    background: rgb(139,86,22);
-}
-
-#about-btn {
-    background: rgb(154,95,21);
+    z-index: -99999999; 
+    background-image: linear-gradient(95deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url(https://images.pexels.com/photos/6492401/pexels-photo-6492401.jpeg?auto=compress&cs=tinysrgb&w=600)
 }
 
 .nav-button {
@@ -65,7 +45,8 @@ body::before {
     align-items: center;
     background-size: cover;
     border: none;
-    color: white;
+    background-color:#F5F5DC;
+    color: black;
     margin-left: 70px;
     margin-right: 20px;
     margin-top: 25px;
@@ -77,50 +58,50 @@ body::before {
 }
 
 .dotted-container {
-   margin-top: 70px; 
-   width: 55%;
-}
+    margin-top: 70px; 
+    width: 55%;
+ }
+ 
+ .dotted-container-content {
+    margin-top: 70px; 
+    width: 55%;
+    display: flex; 
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+ }
+ 
+ .mini-description {
+     text-align: center;
+     font-weight: 700;
+     font-size: 19px;
+     margin-top: 60px;
+     margin-bottom: 40px;
+     color: white;
+     font-family: 'Times New Roman', 
+ }
+ 
+ .description {
+     text-align: center;
+     font-weight: 700;
+     font-size: 23px;
+     margin-top: 60px;
+     margin-bottom: 70px;
+     color: white;
+     font-family: 'Times New Roman',   
+ }
+ 
+ .image {
+     margin-left: 135px;
+     margin-bottom: 40px;
+     border-radius: 50%; 
+     overflow: hidden; 
+     border: 25px solid black;
+     width: 450px;
+     height: 400px;
+ }
 
-.dotted-container-content {
-   margin-top: 70px; 
-   width: 55%;
-   display: flex; 
-   margin-bottom: 60px;
-   flex-wrap: wrap;
-   justify-content: space-between; 
-}
-
-.mini-description {
-    text-align: center;
-    font-weight: 700;
-    font-size: 19px;
-    margin-top: 60px;
-    margin-bottom: 40px;
-    color: white;
-    font-family: 'Times New Roman', 
-}
-
-.description {
-    text-align: center;
-    font-weight: 700;
-    font-size: 23px;
-    margin-top: 60px;
-    margin-bottom: 70px;
-    color: white;
-    font-family: 'Times New Roman',   
-}
-
-.image {
-    margin-left: 135px;
-    margin-bottom: 40px;
-    border-radius: 50%; 
-    overflow: hidden; 
-    border: 25px solid #4A2D10;
-    width: 450px;
-    height: 400px;
-}
-
-.order-description {
+ .order-description {
     text-align: center;
     color: white;
     margin-bottom: 50px;
@@ -134,8 +115,44 @@ body::before {
     font-weight: 700;
     font-size: 33px;
     cursor: pointer;
-    text-decoration: underline #551A8B;
-    color: rgb(18, 61, 7);
+    text-decoration: underline black;
+    color: white;
+    font-family: 'Times New Roman',
+}
+
+.image-img {
+    margin-bottom: 40px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    border: 15px solid black;
+    width: 350px;
+    height: 300px;
+}
+
+.menu-number {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman',
+} 
+
+.menu-description { 
+    margin-top: -50px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman',
+}
+
+.amount {
+    font-weight: 700;
+    font-size: 28px;
+    margin-left: 150px; 
+    color: rgba(255, 0, 0, 1);
     font-family: 'Times New Roman',
 }
 
@@ -153,6 +170,7 @@ body::before {
     color: white;
     font-family: 'Times New Roman',
 }
+
 .img {
     align-items: center;
     justify-content: center;
@@ -163,7 +181,7 @@ body::before {
 }
 
 .about {
-    color: white;
+    color: black;
     text-align: center;
     margin-bottom: 30px;
     font-weight: 700;
@@ -173,43 +191,8 @@ body::before {
 
 .about-description {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 16px;
     width: 100%;
+    margin-bottom: 30px;
+    color: white;
 }
-
-.image-img {
-    margin-bottom: 40px;
-    border-radius: 50%; 
-    overflow: hidden; 
-    border: 15px solid #4A2D10;
-    width: 350px;
-    height: 300px;
-}
-
-.menu-number {
-    text-align: center;
-    margin-top: 50px;
-    margin-right: 90px;
-    font-weight: 700;
-    font-size: 32px;
-    font-family: 'Times New Roman',
-} 
-
-.menu-description { 
-    margin-top: -50px;
-    font-weight: 700;
-    font-size: 19px;
-    color: black;
-    font-family: 'Times New Roman',
-}
-
-.amount {
-    font-weight: 700;
-    font-size: 28px;
-    margin-left: 150px; 
-    color: rgb(18, 61, 7);;
-    font-family: 'Times New Roman',
-}
-
-
-
