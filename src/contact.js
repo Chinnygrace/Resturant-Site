@@ -11,7 +11,7 @@ export function createContactContent() {
     address.classList.add("address");
 
     const img = document.createElement("img");
-    img.src= "../src/image/map.jpg";
+    img.src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZZd7_6eKhlMAwOffnNJY0dDvE1Ivz7LY7n2ytNF7dwYMVWkfvKEw5no5PUIxAbwxuVtE&usqp=CAU";
     img.classList.add("img");
 
 
