@@ -195,17 +195,6 @@ body::before {
 }
 
 @media only screen and (min-width: 770px) {
-    .image {
-        margin-left: 30px;
-        width: 350px;
-        height: 300px;
-    }
-
-    .order-link {
-        margin-left: 150px;
-        font-weight: 700;
-        font-size: 33px;
-    }
 
     .img {
         align-content: center;
